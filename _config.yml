@@ -1,3 +1,4 @@
+---
 #------------------------------------------------------------
 # Values for this lesson.
 #------------------------------------------------------------
@@ -10,8 +11,7 @@
 carpentry: "dc"
 
 # Overall title for pages.
-title: "Cloud SPAN Foundation course"
-
+title: "Cloud SPAN Foundation course\n(Change from cloning Cloud SPAN copy)"
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
@@ -55,9 +55,9 @@ start_time: 0
 
 # Specify that things in the episodes collection should be output.
 collections:
-#  episodes:
-#    output: true
-#    permalink: /:path/index.html
+  #  episodes:
+  #    output: true
+  #    permalink: /:path/index.html
   extras:
     output: true
     permalink: /:path/index.html
@@ -91,4 +91,3 @@ highlighter: rouge
 
 # Remote theme
 remote_theme: carpentries/carpentries-theme
-
