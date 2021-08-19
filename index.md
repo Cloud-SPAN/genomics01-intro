@@ -43,9 +43,9 @@ Interested in teaching these materials? We have an [onboarding video](https://ww
 | Lesson    | Overview |
 | ------- | ---------- |
 | [Project organization and management](https://cloud-span.github.io/foundation-02-project-org-mng/) | Learn how to structure your metadata, organize and document your genomics data and bioinformatics workflow, and access data on the NCBI sequence read archive (SRA) database.|
-| [Introduction to the command line](https://datacarpentry.github.io/shell-genomics/) |  Learn to navigate your file system, create, copy, move, and remove files and directories, and automate repetitive tasks using scripts and wildcards. |
-|[Data wrangling and processing](https://datacarpentry.github.io/wrangling-genomics/) | Use command-line tools to perform quality control, align reads to a reference genome, and identify and visualize between-sample variation. |
-|[Introduction to cloud computing for genomics](http://www.datacarpentry.org/cloud-genomics/) | Learn how to work with Amazon AWS cloud computing and how to transfer data between your local computer and cloud resources. 
+| [Introduction to the command line](https://cloud-span.github.io/foundation-03-command-line-intro/) |  Learn to navigate your file system, create, copy, move, and remove files and directories, and automate repetitive tasks using scripts and wildcards. |
+|[Data wrangling and processing](https://cloud-span.github.io/foundation-04-data-wrangling-processing) | Use command-line tools to perform quality control, align reads to a reference genome, and identify and visualize between-sample variation. |
+|[Related subjects](https://cloud-span.github.io/foundation-05-related-subjects) | Learn how to work with Amazon AWS cloud computing and how to transfer data between your local computer and cloud resources. 
 
 # Optional Additional Lessons
 
