@@ -8,9 +8,8 @@ This course is based on the Data Carpentry's [Genomics Workshop](https://datacar
 The course is designed to be taught over four half days of instruction.
 
 > ## Frequently Asked Questions
->
 > Read our [FAQ](/genomics-workshop/faq/) to learn more about the Cloud SPAN advanced modules and scholarships for individuals from underrepresented groups that might otherwise be unable to participate in training including funds to cover childcare required to undertake self-paced learning.
-> {: .callout}
+{: .callout}
 
 > ## Getting Started
 >
@@ -20,7 +19,7 @@ The course is designed to be taught over four half days of instruction.
 >
 > To get started, follow the directions in the [Setup](setup.html) tab to get access to the required
 > software and data for this workshop.
-> {: .prereq}
+{: .prereq}
 
 > ## Data
 >
@@ -28,7 +27,7 @@ The course is designed to be taught over four half days of instruction.
 >
 > All of the data used in this workshop can be [downloaded from Figshare](https://figshare.com/articles/Data_Carpentry_Genomics_beta_2_0/7726454).
 > More information about this data is available on the [Data page](https://datacarpentry.org/organization-genomics/data/).
-> {: .prereq}
+{: .prereq}
 
 # Course Overview
 
