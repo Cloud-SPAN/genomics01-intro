@@ -10,7 +10,7 @@ The course is designed to be taught over four half days of instruction.
 > ## Frequently Asked Questions
 >
 > Read our [FAQ](/genomics-workshop/faq/) to learn more about the Cloud SPAN advanced modules and scholarships for individuals from underrepresented groups that might otherwise be unable to participate in training including funds to cover childcare required to undertake self-paced learning.
-> {: .callout}
+{: .callout}
 
 > ## Getting Started
 >
@@ -20,7 +20,7 @@ The course is designed to be taught over four half days of instruction.
 >
 > To get started, follow the directions in the [Setup](setup.html) tab to get access to the required
 > software and data for this workshop.
-> {: .prereq}
+{: .prereq}
 
 > ## Data
 >
@@ -32,12 +32,12 @@ The course is designed to be taught over four half days of instruction.
 
 # Course Overview
 
-| Lesson                                                                                                | Overview                                                                                                                                                                                                                                    |
-| ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Project organization and management](https://cloud-span.github.io/foundation-02-project-org-mng/)    | Learn how to structure your metadata, organize and document your genomics data and bioinformatics workflow, and access data on the NCBI sequence read archive (SRA) database.                                                               |
-| [Introduction to the command line](https://cloud-span.github.io/foundation-03-command-line-intro/)    | Learn to navigate your file system, create, copy, move, and remove files and directories, and automate repetitive tasks using scripts and wildcards.                                                                                        |
-| [Data wrangling and processing](https://cloud-span.github.io/foundation-04-data-wrangling-processing) | Use command-line tools to perform quality control, align reads to a reference genome, and identify and visualize between-sample variation.                                                                                                  |
-| [Related subjects](https://cloud-span.github.io/foundation-05-related-subjects)                       | Learn how to bla, .. , task management in Amazon Web Services (AWS), and how to automate computing and data management tasks work with Amazon AWS cloud computing and how to transfer data between your local computer and cloud resources. |
+| Lesson                     | Overview |
+| -------------------------- | ---------|
+| [Project organization and management](https://cloud-span.github.io/foundation-02-project-org-mng/)    | Learn how to structure your metadata, organize and document your genomics data and bioinformatics workflow, and access data on the NCBI sequence read archive (SRA) database.|
+| [Introduction to the command line](https://cloud-span.github.io/foundation-03-command-line-intro/)    | Learn to navigate your file system, create, copy, move, and remove files and directories, and automate repetitive tasks using scripts and wildcards.|
+| [Data wrangling and processing](https://cloud-span.github.io/foundation-04-data-wrangling-processing) | Use command-line tools to perform quality control, align reads to a reference genome, and identify and visualize between-sample variation.|
+| [Related subjects](https://cloud-span.github.io/foundation-05-related-subjects) | Learn how to bla, task management in Amazon Web Services (AWS), and how to automate computing and data management tasks work with Amazon AWS cloud computing and how to transfer data between your local computer and cloud resources. |
 
 # Teaching Platform
 

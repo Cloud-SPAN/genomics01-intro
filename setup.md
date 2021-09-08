@@ -5,7 +5,7 @@ title: Setup
 
 # Overview
 
-This course is designed to be run on pre-configured Amazon Web Services Machine Images (AMIs). All of the software and data used in the course are hosted on each AMI with the exception of these three software tools: Git Bash, a spreadsheet, and the Integrative Genomics Viewer (IGV) application. Please intall these applications in your personal computer (laptop or desktop --- not tablets nor iPads) before the course; instructions to install them are given below. Git Bash will allow you to access your AMI from your personal computer or to run command-line tasks in your personal computer.
+This course is designed to be run on pre-configured Amazon Web Services Machine Images (AMIs), one AMI for each participant. All of the software and data used in the course are hosted on each AMI with the exception of three software tools: *Git Bash*, a *spreadsheet*, and the *Integrative Genomics Viewer*. These software tools will be run in the personal computer of each participant, either a laptop or desktop (tablets and iPads are not suitable). Please install the software tools in your personal computer before the course; directions to install them are given below. Git Bash is only needed if you will be using a Windows computer. It is a command-line interface, also known as as CLI and shell, which will allow you to access your AMI from your personal computer.
 
 Please follow the instructions below to prepare your computer for the course. Option A uses an AMI; Option B runs all software in your personal computer.
 
@@ -15,362 +15,123 @@ Please follow the instructions below to prepare your computer for the course. Op
 
 ## Required additional software to install in your personal computer
 
-This course requires Git Bash, a working spreadsheet and the IGV application. If you don't have a spreadsheet program already, you can use LibreOffice. It's a free, open source spreadsheet program. Directions to install these applications are included below for each Windows, Mac OS X, and Linux systems.
+This course requires Git Bash, a working spreadsheet and the IGV application. If you don't have a spreadsheet program already, you can use LibreOffice. It's a free, open source spreadsheet program. Directions to install the these applications are included below for each Windows, Mac OS X, and Linux systems.
 
 > ## Windows
->
-> - **Install Git Bash**
->   - Download the [Git for Windows installer](https://git-for-windows.github.io/) which installs both Git and Git Bash. Once the installer is downloaded, double click on it and follow the next steps.
->   - Click on "Next" four times (two times if you've previously installed Git). You don't need to change anything in the screens Information, Location, Components, and Start Menu.
->   - Select "Use the nano editor by default" and click on "Next". You may need to scroll up to see this option.
->   - Click on "Next".
->   - Keep "Use Git from the command line and also from 3rd-party software" selected and click on "Next". If you forgot to do this, programs that you need for the workshop will not work properly. If this happens rerun the installer and select the appropriate option.
->   - Click on "Next" two times.
->   - Keep "Checkout Windows-style, commit Unix-style line endings" selected and click on "Next".
->   - Select "Use Windows' default console window" and click on "Next".
->   - Click on "Next" three times.
->   - Click on "Install".
->   - Click on "Finish".
->   - **.HERE**: the following If and sub-bullets don't seem necessary (HOME is set for both Git CMD and Git Bash but not for the Command Prompt --- but we are supposed to use the Git Bash). I need to check all the software runs properly and if so I will delete all this.
->   - If your "HOME" environment variable is not set (or you don't know what this is):
->     - Open command prompt (Open Start Menu then type `cmd` and press [Enter])
->     - Type the following line into the command prompt window exactly as shown: `setx HOME "%USERPROFILE%"`
->     - Press [Enter], you should see `SUCCESS: Specified value was saved.`
->     - Quit command prompt by typing `exit` then pressing [Enter]
-> - **Install LibreOffice spreadsheet**
->   - Download the [LibreOffice for Windows installer](https://www.libreoffice.org/download/libreoffice-fresh/). The version for Windows should automatically be selected. Click on "Download" for the version LibreOffice X.X.X (whichever is the most recent version). You will go to a page that asks about a donation, but you don't need to make one. Your download should begin automatically. Once the installer is downloaded, double click on it and follow the next steps.
->   - Click on "Install anyway" (in the screen "The app you are trying to install isn't a Microsoft verified app")
->   - Click on "Next" two times.
->   - Click on "Install".
->   - Click on “Yes” (in the screen “Do you want to allow this app to make changes to your device?”)
->   - If the screen "Files in Use" appears, Select "Do not close applications. A reboot will be required to complete the setup." and click on "OK".
->   - Click on "Finish".
->   - Click on "Yes" if asked to restart to your computer.
-> - **Install the Integrative Genomics Viewer (IGV)**
->   - Download the [IGV for Windows installer](https://software.broadinstitute.org/software/igv/download), the version "IGV for Windows Java included". Once the installer is downloaded, double click on it and follow the next steps.
->   - Click on "Install anyway" (in the screen "The app you are trying to install isn't a Microsoft verified app")
->   - Click on "Yes" (in the screen "Do you want to allow this app to make changes to your device?")
->   - Select "I accept the terms of the License Agreement" and click on "Next".
->   - Click on "Install".
->   - Once the installation is finished, run IGV by double clicking the IGV icon in your Desktop screen.
->   - If the screen "Windows Defender Firewall has blocked some features of this app" appears, Click on "Allow access".
->     {: .solution}
+> > ## Installing Git Bash
+> > - Download the [Git for Windows installer](https://git-for-windows.github.io/) which installs both Git and Git Bash. 
+> > - Once the installer is downloaded, double click on it and follow the next steps.
+> > - Click on "Next" four times (two times if you've previously installed Git). You don't need to change anything in the screens Information, Location, Components, and Start Menu.
+> > - Select "Use the nano editor by default" and click on "Next". You may need to scroll up to see this option.
+> > - Click on "Next".
+> > - Keep "Use Git from the command line and also from 3rd-party software" selected and click on "Next". If you forgot to do this, programs that you need for the workshop will not work properly. If this happens rerun the installer and select the appropriate option.
+> > - Click on "Next" two times.
+> > - Keep "Checkout Windows-style, commit Unix-style line endings" selected and click on "Next".
+> > - Select "Use Windows' default console window" and click on "Next".
+> > - Click on "Next" three times.
+> > - Click on "Install".
+> > - Click on "Finish".
+> {: .solution} 
+> > ## Installing LibreOffice spreadsheet
+> > - Download the [LibreOffice for Windows installer](https://www.libreoffice.org/download/libreoffice-fresh/). The version for Windows should automatically be selected. Click on "Download" for the version LibreOffice X.X.X (whichever is the most recent version). You will go to a page that asks about a donation, but you don't need to make one. Your download should begin automatically. Once the installer is downloaded, double click on it and follow the next steps.
+> > - Click on "Install anyway" (in the screen "The app you are trying to install isn't a Microsoft verified app")
+> > - Click on "Next" two times.
+> > - Click on "Install".
+> > - Click on “Yes” (in the screen “Do you want to allow this app to make changes to your device?”)
+> > - If the screen "Files in Use" appears, Select "Do not close applications. A reboot will be required to complete the setup." and click on "OK".
+> > - Click on "Finish".
+> > - Click on "Yes" if asked to restart to your system.
+> {: .solution}
+> > ## Installing the Integrative Genomics Viewer (IGV)
+> > - Download the [IGV for Windows installer](https://software.broadinstitute.org/software/igv/download), the version "IGV for Windows Java included". Once the installer is downloaded, double click on it and follow the next steps.
+> > - Click on "Install anyway" (in the screen "The app you are trying to install isn't a Microsoft verified app")
+> > - Click on "Yes" (in the screen "Do you want to allow this app to make changes to your device?")
+> > - Select "I accept the terms of the License Agreement" and click on "Next".
+> > - Click on "Install".
+> > - Once the installation is finished, run IGV by double clicking the IGV icon in your Desktop screen.
+> > - Click on "Allow access" if the screen "Windows Defender Firewall has blocked some features of this app" appears.
+> {: .solution} 
+{: .solution}
 
 > ## Mac OS X
 >
-> - Install LibreOffice by going to [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/). The version for Mac should automatically be selected. Click Download Version X.X.X (whichever is the most recent version). You will go to a page that asks about a donation, but you don't need to make one. Your download should begin automatically.
+> - Install LibreOffice by going to [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/). The version for Mac should automatically be selected. Click on "Download" for the version LibreOffice X.X.X (whichever is the most recent version). You will go to a page that asks about a donation, but you don't need to make one. Your download should begin automatically.
 > - Once the installer is downloaded, double click on it and LibreOffice should install.
->   {: .solution}
+{: .solution}
 
 > ## Linux
->
-> - Install LibreOffice by going to [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/). The version for Linux should automatically be selected. Click Download Version X.X.X (whichever is the most recent version). You will go to a page that asks about a donation, but you don't need to make one. Your download should begin automatically.
-> - Once the installer is downloaded, double click on it and LibreOffice should install.
->   {: .solution}
+> > ## Install LibreOffice spreadsheet
+> > LibreOffice is usually pre-installed in most Linux distributions. Please check first whether it is installed in your system. If it is not, then **try first option 1** as it is the simplest and recommended.
+> > > ## Option 1 
+> > > Use the software manager (graphical) application of your Linux distribution, such as **Ubuntu Software** (Center) in the case of Ubuntu Linux, or **Software** in the case of Fedora Linux. Follow these steps in Ubuntu (which should be similar for other distributions):
+> > > - Open **Ubuntu Software**
+> > > - Search for libreoffice
+> > > - Click on "LibreOffice Calc" to install only the spreadsheet or on "LibreOffice" to install all the LibreOffice applications
+> > > - Click on "Install"
+> > {: .solution} 
+> > > ## Option 2
+> > > > ## Debian - Ubuntu - Mint 
+> > > > - Download the [LibreOffice for Linux installer](https://www.libreoffice.org/download/libreoffice-fresh/). A version for Linux should automatically be selected but you must select the **deb** version as follows. On the version LibreOffice X.X.X (whichever is the most recent version), on "Choose your operating system:", select "Linux (64-bit) (**deb**)". **Click on** "Download". You will go to a page that asks about a donation, but you don't need to make one. Your download should begin automatically. Once the installer is downloaded, follow these steps.
+> > > > - Open a Terminal (Console) and change to the location where you downloaded the installer.
+> > > > - Uncompress and run the installer with the commands in the Code box below, but using:
+> > > >   - the actual name of the installer you downloaded and 
+> > > >   - the name of the directory created by the "tar ..." command 
+> > > >   - you may be asked your password by the sudo command.
+> > > > ~~~
+> > > > $ tar zxvf LibreOffice_7.2.0_Linux_x86-64_deb.tar.gz
+> > > > $ cd LibreOffice_7.2.0.4_Linux_x86-64_deb
+> > > > $ cd DEBS
+> > > > $ sudo dpkg -i *.deb
+> > > > ~~~
+> > > > {: .bash}
+> > > {: .solution} 
+> > > > ## Fedora - Centos - Mandriva - Mageia - openSUSE and other RPM based systems
+> > > > - Download the [LibreOffice for Linux installer](https://www.libreoffice.org/download/libreoffice-fresh/). A version for Linux should automatically be selected but you must select the **rpm** version as follows. On the version LibreOffice X.X.X (whichever is the most recent version), on "Choose your operating system:", select "Linux (64-bit) (**rpm**)". **Click on** "Download". You will go to a page that asks about a donation, but you don't need to make one. Your download should begin automatically. Once the installer is downloaded, follow these steps.
+> > > > - Open a Terminal and change to the location where you downloaded the installer.
+> > > > - Uncompress the installer using the tar command in the **Code** box but **use** the actual name of the installer you downloaded (which should look like "LibreOffice_7.2.0_Linux_x86-64_rpm.tar.gz"):
+> > > > ~~~
+> > > > $ tar zxvf LibreOffice_YOURVERSION_Linux_x86-64_rpm.tar.gz
+> > > > ~~~
+> > > > {: .bash}
+> > > > The "tar ..." command will create a new directory whose name will be similar to the name of the installer you downloaded but without the ending ".tar.gz" (e.g., LibreOffice_7.2.0_Linux_x86-64_rpm). 
+> > > > - Change location as shown in the next Code box but **using** the name of your newly created directory in the first command:
+> > > > ~~~
+> > > > $ cd LibreOffice_YOURVERSION_Linux_x86-64_rpm
+> > > > $ cd RPMS
+> > > > ~~~
+> > > > {: .bash}
+> > > > - For **Fedora** and **Centos**, run the installer using the command in the next Code box (you may be asked your password). Once the installer finishes, LibreOffice will be installed in your system.
+> > > > ~~~
+> > > > $ su -c 'yum install *.rpm'
+> > > > ~~~
+> > > > {: .bash}
+> > > > - For **Mandriva** and **Mageia**, run the installer using the command in the next Code box (you may be asked your password). Once the installer finishes, LibreOffice will be installed in your system.
+> > > > ~~~
+> > > > $ su -c 'urpmi *.rpm'
+> > > > ~~~
+> > > > {: .bash}
+> > > > - For **openSUSE** and **other RPM based systems**, run the installer using the command in the next Code box (you may be asked your password). Once the installer finishes, LibreOffice will be installed in your system.
+> > > > ~~~
+> > > > $ su -c 'rpm -Uvh *.rpm'
+> > > > ~~~
+> > > > {: .bash}
+> > > {: .solution} 
+> > {: .solution} 
+> {: .solution} 
+> > ## Install the Integrative Genomics Viewer (IGV)
+> > - Download the [IGV for Windows installer](https://software.broadinstitute.org/software/igv/download), the version "IGV for Windows Java included". Once the installer is downloaded, double click on it and follow the next steps.
+> > fasdfa
+> {: .solution} 
+{: .solution}
 
-## Option A (**Recommended**): Using the lessons with Amazon Web Services (AWS)
+## Option A (**Recommended**) --- Using the lessons with an AMI provided to you
 
-If you are signed up to take a Genomics Data Carpentry workshop, you do _not_ need to worry about setting up an AMI instance. The Carpentries
-staff will create an instance for you and this will be provided to you at no cost. This is true for both self-organized and centrally-organized workshops. Your Instructor will provide instructions for connecting to the AMI instance at the workshop.
+If you are signed up to take the Cloud-SPAN Foundation Course, you do _not_ need to worry about setting up an AMI instance. The Cloud SPAN team will create an instance for you and this will be provided to you at no cost. Your Instructor will provide instructions for connecting to the AMI instance at the workshop.
 
-If you would like to work through these lessons independently, outside of a workshop, you will need to start your own AMI instance.
-Follow these [instructions on creating an Amazon instance](https://datacarpentry.org/genomics-workshop/AMI-setup/). Use the AMI `ami-04b3bc83255f918b0` (Data Carpentry Genomics with R 4.0) listed on the Community AMIs page. Please note that you must set your location as `N. Virginia` in order to access this community AMI. You can change your location in the upper right corner of the main AWS menu bar. The cost of using this AMI for a few days, with the t2.medium instance type is very low (about USD $1.50 per user, per day). Data Carpentry has _no_ control over AWS pricing structure and provides this
-cost estimate with no guarantees. Please read AWS documentation on pricing for up-to-date information.
+## Option B: Using the lessons with your own AMI on your AWS account
 
-If you're an Instructor or Maintainer or want to contribute to these lessons, please get in touch with us [team@carpentries.org](mailto:team@carpentries.org) and we will start instances for you.
+If you would like to work through these lessons independently, outside the Cloud SPAN Foundation course, or with your own copy of the AMI used in the course, you will need to start your own AMI instance. Follow these [instructions on creating an Amazon instance](https://cloud-span.github.io/foundation-01-intro/AMI-setup/). Use the AMI **to change: ami-04b3bc83255f918b0** (Cloud SPAN Foundation Course AMI) listed on the Community AMIs page. Please note that you must set your location as Ireland (eu-west-1) in order to access this community AMI. You can change your location in the upper right corner of the main AWS menu bar. The cost of using this AMI for a few days, with the t2.medium instance type is very low (about USD $1.50 per user, per day).
 
-## Option B: Using the lessons on your local machine
+*The advantage of Option B is that you will be able to keep all the software and data for as long as you keep your AMI*. 
 
-While not recommended, it is possible to work through the lessons on your local machine (i.e. without using
-AWS). To do this, you will need to install all of the software used in the workshop and obtain a copy of the
-dataset. Instructions for doing this are below.
 
-### Data
-
-The data used in this workshop is available on FigShare. Because this workshop works with real data, be aware that file sizes for the data are large. Please read the FigShare page linked below for information about the data and access to the data files.
-
-[FigShare Data Carpentry Genomics Beta 2.0](https://figshare.com/articles/Data_Carpentry_Genomics_beta_2_0/7726454)
-
-More information about these data will be presented in the [first lesson of the workshop](http://www.datacarpentry.org/organization-genomics/data/).
-
-### Software
-
-| workshop                                                             | Version                                                           | Manual                                                                                             | Available for         | Description                                                           |
-| -------------------------------------------------------------------- | ----------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | --------------------- | --------------------------------------------------------------------- |
-| [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) | 0.11.7                                                            | [Link](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/)                            | Linux, MacOS, Windows | Quality control tool for high throughput sequence data.               |
-| [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic)        | 0.38                                                              | [Link](http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/TrimmomaticManual_V0.32.pdf) | Linux, MacOS, Windows | A flexible read trimming tool for Illumina NGS data. workshop         |
-| [BWA](http://bio-bwa.sourceforge.net/)                               | 0.7.17                                                            | [Link](http://bio-bwa.sourceforge.net/bwa.shtml)                                                   | Linux, MacOS          | Mapping DNA sequences against reference genome.                       |
-| [SAMtools](http://samtools.sourceforge.net/)                         | 1.9                                                               | [Link](http://www.htslib.org/doc/samtools.html)                                                    | Linux, MacOS          | Utilities for manipulating alignments in the SAM format.              |
-| [BCFtools](https://samtools.github.io/bcftools/)                     | 1.8                                                               | [Link](https://samtools.github.io/bcftools/bcftools.html)                                          | Linux, MacOS          | Utilities for variant calling and manipulating VCFs and BCFs.         |
-| [IGV](http://software.broadinstitute.org/software/igv/home)          | [Link](https://software.broadinstitute.org/software/igv/download) | [Link](https://software.broadinstitute.org/software/igv/UserGuide)                                 | Linux, MacOS, Windows | Visualization and interactive exploration of large genomics datasets. |
-
-### QuickStart Software Installation Instructions
-
-These are the QuickStart installation instructions. They assume familiarity with the command line and with installation in general. As there are different operating systems and many different versions of operating systems and environments, these may not work on your computer. If an installation doesn't work for you, please refer to the user guide for the tool, listed in the table above.
-
-We have installed software using [miniconda](https://docs.conda.io/en/latest/miniconda.html). Miniconda is a package manager that simplifies the installation process. Please first install miniconda3 (installation instructions below), and then proceed to the installation of individual tools.
-
-### Miniconda3
-
-> ## MacOS
->
-> To install miniconda3, type:
->
-> ```
-> $ curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
-> $ bash Miniconda3-latest-MacOSX-x86_64.sh
-> ```
->
-> {: .bash}
-> Then, follow the instructions that you are prompted with on the screen to install Miniconda3.
-> {: .solution}
-
-### FastQC
-
-> ## MacOS
->
-> To install FastQC, type:
->
-> ```
-> $ conda install -c bioconda fastqc=0.11.7=5
-> ```
->
-> {: .bash}
-> {: .solution}
-
-> ## FastQC Source Code Installation
->
-> If you prefer to install from source, follow the directions below:
->
-> ```
-> $ cd ~/src
-> $ curl -O http://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.11.7.zip
-> $ unzip fastqc_v0.11.7.zip
-> ```
->
-> {: .bash}
->
-> Link the fastqc executable to the ~/bin folder that
-> you have already added to the path.
->
-> ```
-> $ ln -sf ~/src/FastQC/fastqc ~/bin/fastqc
-> ```
->
-> {: .bash}
->
-> Due to what seems a packaging error
-> the executable flag on the fastqc program is not set.
-> We need to set it ourselves.
->
-> ```
-> $ chmod +x ~/bin/fastqc
-> ```
->
-> {: .bash}
-> {: .solution}
-
-**Test your installation by running:**
-
-```
-$ fastqc -h
-```
-
-{: .bash}
-
-### Trimmomatic
-
-> ## MacOS
->
-> ```
-> conda install -c bioconda trimmomatic=0.38=0
-> ```
->
-> {: .bash}
-> {: .solution}
-
-> ## Trimmomatic Source Code Installation
->
-> If you prefer to install from source, follow the directions below:
->
-> ```
-> $ cd ~/src
-> $ curl -O http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/Trimmomatic-0.38.zip
-> $ unzip Trimmomatic-0.38.zip
-> ```
->
-> {: .bash}
->
-> The program can be invoked via:
->
-> ```
-> $ java -jar ~/src/Trimmomatic-0.38/trimmomatic-0.38.jar
-> ```
->
-> The ~/src/Trimmomatic-0.38/adapters/ directory contains
-> Illumina specific adapter sequences.
->
-> ```
-> $ ls ~/src/Trimmomatic-0.38/adapters/
-> ```
->
-> {: .bash}
-> {: .solution}
-
-**Test your installation by running:** (assuming things are installed in ~/src)
-
-```
-$ java -jar ~/src/Trimmomatic-0.38/trimmomatic-0.38.jar
-```
-
-{: .bash}
-
-> ## Simplify the Invocation, or to Test your installation if you installed with miniconda3:
->
-> To simplify the invocation you could also create a script in the ~/bin folder:
->
-> ```
-> $ echo '#!/bin/bash' > ~/bin/trimmomatic
-> $ echo 'java -jar ~/src/Trimmomatic-0.36/trimmomatic-0.36.jar $@' >> ~/bin/trimmomatic
-> $ chmod +x ~/bin/trimmomatic
-> ```
->
-> {: .bash}
->
-> Test your script by running:
->
-> ```
-> $ trimmomatic
-> ```
->
-> {: .bash}
-> {: .solution}
-
-### BWA
-
-> ## MacOS
->
-> ```
-> conda install -c bioconda bwa=0.7.17=ha92aebf_3
-> ```
->
-> {: .bash}
-> {: .solution}
-
-> ## BWA Source Code Installation
->
-> If you prefer to install from source, follow the instructions below:
->
-> ```
-> $ cd ~/src
-> $ curl -OL http://sourceforge.net/projects/bio-bwa/files/bwa-0.7.17.tar.bz2
-> $ tar jxvf bwa-0.7.17.tar.bz2
-> $ cd bwa-0.7.17
-> $ make
-> $ export PATH=~/src/bwa-0.7.17:$PATH
-> ```
->
-> {: .bash}
-> {: .solution}
-
-**Test your installation by running:**
-
-```
-$ bwa
-```
-
-{: .bash}
-
-### SAMtools
-
-> ## MacOS
->
-> ```
-> $ conda install -c bioconda samtools=1.9=h8ee4bcc_1
-> ```
->
-> {: .bash}
-> {: .solution}
-
-> ## SAMtools Versions
->
-> SAMtools has changed the command line invocation (for the better). But this means that most of the tutorials
-> on the web indicate an older and obsolete usage.
->
-> Using SAMtools version 1.9 is important to work with the commands we present in these lessons.
-> {: .callout}
-
-> ## SAMtools Source Code Installation
->
-> If you prefer to install from source, follow the instructions below:
->
-> ```
-> $ cd ~/src
-> $ curl -OkL https://github.com/samtools/samtools/releases/download/1.9/samtools-1.9.tar.bz2
-> $ tar jxvf samtools-1.9.tar.bz2
-> $ cd samtools-1.9
-> $ make
-> ```
->
-> {: .bash}
->
-> Add directory to the path if necessary:
->
-> ```
-> $ echo export `PATH=~/src/samtools-1.9:$PATH` >> ~/.bashrc
-> $ source ~/.bashrc
-> ```
->
-> {: .bash}
-> {: .solution}
-
-**Test your installation by running:**
-
-```
-$ samtools
-```
-
-{: .bash}
-
-### BCFtools
-
-> ## MacOS
->
-> ```
-> $ conda install -c bioconda bcftools=1.8=h4da6232_3
-> ```
->
-> {: .bash}
-> {: .solution}
-
-> ## BCF tools Source Code Installation
->
-> If you prefer to install from source, follow the instructions below:
->
-> ```
-> $ cd ~/src
-> $ curl -OkL https://github.com/samtools/bcftools/releases/download/1.8/bcftools-1.8.tar.bz2
-> $ tar jxvf bcftools-1.8.tar.bz2
-> $ cd bcftools-1.8
-> $ make
-> ```
->
-> {: .bash}
->
-> Add directory to the path if necessary:
->
-> ```
-> $ echo export `PATH=~/src/bcftools-1.8:$PATH` >> ~/.bashrc
-> $ source ~/.bashrc
-> ```
->
-> {: .bash}
-> {: .solution}
-
-**Test your installation by running:**
-
-```
-$ bcftools
-```
-
-{: .bash}
