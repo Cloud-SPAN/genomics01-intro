@@ -134,4 +134,6 @@ If you would like to work through these lessons independently, outside the Cloud
 
 *The advantage of Option B is that you will be able to keep all the software and data for as long as you keep your AMI*. 
 
+Follow these locally [instructions on creating an Amazon instance](AMI-setup).
+Follow these locally [instructions on guid](guide).
 

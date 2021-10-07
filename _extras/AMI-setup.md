@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Launching your own AMI instances
+title: Launching your own AMI instance
 ---
 
 > ## Do I need to create my own instances?

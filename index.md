@@ -17,7 +17,7 @@ The course is designed to be taught over four half days of instruction.
 > However, learners are expected to have some familiarity with biological concepts, including the
 > concept of genomic variation within a population. Participants should bring their own laptops and plan to participate actively.
 >
-> To get started, follow the directions in the [Setup](setup.html) tab to get access to the required
+> To get started, follow the directions in the [Setup](setup) tab to get access to the required
 > software and data for this workshop.
 {: .prereq}
 
@@ -40,4 +40,4 @@ The course is designed to be taught over four half days of instruction.
 
 # Teaching Platform
 
-This workshop is designed to be run on pre-imaged Amazon Web Services (AWS) instances. All the software and data used in the workshop are hosted on an Amazon Machine Image (AMI). If you want to run your own instance of the server used for this workshop, follow the directions in the [Setup](setup.html) tab.
+This workshop is designed to be run on pre-imaged Amazon Web Services (AWS) instances. All the software and data used in the workshop are hosted on an Amazon Machine Image (AMI). If you want to run your own instance of the server used for this workshop, follow the directions in the [Setup](setup) tab.
