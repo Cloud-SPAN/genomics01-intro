@@ -11,7 +11,7 @@
 carpentry: "dc"
 
 # Overall title for pages.
-title: "Cloud SPAN Foundation Course"
+title: "Cloud-SPAN Genomics Course"
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
@@ -90,4 +90,4 @@ exclude:
 highlighter: rouge
 
 # Remote theme
-remote_theme: carpentries/carpentries-theme
+remote_theme: Cloud-SPAN/cloud-span-theme

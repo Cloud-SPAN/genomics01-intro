@@ -1,7 +1,7 @@
 ---
 ---
 
-[Data Carpentry](https://datacarpentry.org/)’s aim is to teach researchers basic concepts, skills, and tools for working with data so that they can get more done in less time, and with less pain. [Cloud SPAN](https:cloud-span.york.ac.uk) is the project run by the Biology Department of the University of York with the aim to develop advanced modules covering specialised knowledge and skills to generate and analyse 'omics data using cloud-based High Performance Computing (HPC) resources.
+[Data Carpentry](https://datacarpentry.org/)’s aim is to teach researchers basic concepts, skills, and tools for working with data so that they can get more done in less time, and with less pain. [Cloud-SPAN](https://cloud-span.york.ac.uk) is the project run by the Biology Department of the University of York with the aim to develop advanced modules covering specialised knowledge and skills to generate and analyse 'omics data using cloud-based High Performance Computing (HPC) resources.
 
 This course is based on the Data Carpentry's [Genomics Workshop](https://datacarpentry.org/genomics-workshop/), streamlined and extended to serve as the foundation course for the Cloud SPAN advanced modules. The course teaches data management and analysis for genomics research including: (1) best practices for organization of bioinformatics projects and data, (2) use of command-line utilities to connect to and use cloud computing and storage resources, (3) use of command-line tools to analyze sequence quality and perform variant calling, and (4) various related subjects to help you optimise your work.
 
@@ -33,10 +33,10 @@ The course is designed to be taught over four half days of instruction.
 
 | Lesson                     | Overview |
 | -------------------------- | ---------|
-| [Project organization and management](https://cloud-span.github.io/foundation-02-project-org-mng/)    | Learn how to structure your metadata, organize and document your genomics data and bioinformatics workflow, and access data on the NCBI sequence read archive (SRA) database.|
-| [Introduction to the command line](https://cloud-span.github.io/foundation-03-command-line-intro/)    | Learn to navigate your file system, create, copy, move, and remove files and directories, and automate repetitive tasks using scripts and wildcards.|
-| [Data wrangling and processing](https://cloud-span.github.io/foundation-04-data-wrangling-processing) | Use command-line tools to perform quality control, align reads to a reference genome, and identify and visualize between-sample variation.|
-| [Related subjects](https://cloud-span.github.io/foundation-05-related-subjects) | Learn how to bla, task management in Amazon Web Services (AWS), and how to automate computing and data management tasks work with Amazon AWS cloud computing and how to transfer data between your local computer and cloud resources. |
+| [Project organization and management](https://cloud-span.github.io/genomics02-proj-mngt-cloud-computing/) | Learn how to structure your metadata, organize and document your genomics data and bioinformatics workflow, and access data on the NCBI sequence read archive (SRA) database.|
+| [Introduction to the command line](https://cloud-span.github.io/genomics03-using-the-command-line/)    | Learn to navigate your file system, create, copy, move, and remove files and directories, and automate repetitive tasks using scripts and wildcards.|
+| [Data preparation](https://cloud-span.github.io/genomics04-data-preparation/) | Use command-line tools to perform quality control, align reads to a reference genome, and identify and visualize between-sample variation. Need EDITING|
+| [Data wrangling and processing](https://cloud-span.github.io/genomics05-data-wrangling-processing) | Learn how to use command-line tools to perform quality control, align reads to a reference genome, and identify and visualize between-sample variation. |
 
 # Teaching Platform
 
