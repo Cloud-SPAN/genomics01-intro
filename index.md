@@ -33,10 +33,10 @@ The course is designed to be taught over four half days of instruction.
 
 | Lesson                     | Overview |
 | -------------------------- | ---------|
-| [Project organization and management](https://cloud-span.github.io/genomics02-proj-mngt-cloud-computing/) | Learn how to structure your metadata, organize and document your genomics data and bioinformatics workflow, and access data on the NCBI sequence read archive (SRA) database.|
-| [Introduction to the command line](https://cloud-span.github.io/genomics03-using-the-command-line/)    | Learn to navigate your file system, create, copy, move, and remove files and directories, and automate repetitive tasks using scripts and wildcards.|
-| [Data preparation](https://cloud-span.github.io/genomics04-data-preparation/) | Use command-line tools to perform quality control, align reads to a reference genome, and identify and visualize between-sample variation. Need EDITING|
-| [Data wrangling and processing](https://cloud-span.github.io/genomics05-data-wrangling-processing) | Learn how to use command-line tools to perform quality control, align reads to a reference genome, and identify and visualize between-sample variation. |
+| [Project management for cloud genomics](https://cloud-span.github.io/genomics02-proj-mngt-cloud-genomics/) | Learn how to structure your metadata, organize and document your genomics data and bioinformatics workflow, and access data on the NCBI sequence read archive (SRA) database.|
+| [Using the command line](https://cloud-span.github.io/genomics03-using-the-command-line/)    | Learn to navigate your file system, create, copy, move, and remove files and directories, and automate repetitive tasks using scripts and wildcards.|
+| [Data preparation and organisation](https://cloud-span.github.io/genomics04-data-preparation-organisation/) | Use command-line tools to perform quality control, align reads to a reference genome, and identify and visualize between-sample variation.|
+| [Data processing and analysis](https://cloud-span.github.io/genomics05-data-processing-analysis) | Learn how to use command-line tools to perform quality control, align reads to a reference genome, and identify and visualize between-sample variation. |
 
 # Teaching Platform
 
