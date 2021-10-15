@@ -30,5 +30,5 @@ Participants using a Linux or Mac OS X computer do not need to install any addit
 > - Click on "Finish".
 {: .solution}
 
-Follow these locally [instructions on guide](guide).
+
 
