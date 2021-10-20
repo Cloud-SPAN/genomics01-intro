@@ -42,4 +42,4 @@ The course is designed to be taught over four half days of instruction.
 
 # Teaching Platform
 
-This workshop is designed to be run on pre-imaged Amazon Web Services (AWS) instances. All the software and data used in the workshop are hosted on an Amazon Machine Image (AMI). If you want to run your own instance of the server used for this workshop, follow the directions in the [Setup](setup) tab.
+This workshop is designed to be run on pre-imaged Amazon Web Services (AWS) instances. All the software and data used in the workshop are hosted on an Amazon Machine Image (AMI). To access your AMI instance remotely, follow the directions in the [Setup](setup).
