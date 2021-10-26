@@ -3,7 +3,7 @@ layout: page
 title: Frequently Asked Questions
 ---
 
-Thank you for your interest in participating in this Cloud-SPAN workshop. Below you will find answers to some frequently asked questions about this curriculum. If the answer to your question doesn’t appear below, please contact [cloud-span-project.york.ac.uk](mailto:cloud-span-project.york.ac.uk) or open an issue in one of [our Github repos]("https://github.com/Cloud-SPAN"). 
+Thank you for your interest in participating in this Cloud-SPAN workshop. Below you will find answers to some frequently asked questions about this curriculum. If the answer to your question doesn’t appear below, please contact [cloud-span-project.york.ac.uk](mailto:cloud-span-project.york.ac.uk) or open an issue in one of [our Github repos](https://github.com/Cloud-SPAN). 
 
 * [For Learners](#learners)
 
