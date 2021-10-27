@@ -3,7 +3,7 @@ layout: page
 title: Frequently Asked Questions
 ---
 
-Thank you for your interest in participating in this Cloud-SPAN workshop. Below you will find answers to some frequently asked questions about this curriculum. If the answer to your question doesn’t appear below, please contact [cloud-span-project.york.ac.uk](mailto:cloud-span-project.york.ac.uk) or open an issue in one of [our Github repos]("https://github.com/Cloud-SPAN"). 
+Thank you for your interest in participating in this Cloud-SPAN workshop. Below you will find answers to some frequently asked questions about this curriculum. If the answer to your question doesn’t appear below, please contact [cloud-span-project.york.ac.uk](mailto:cloud-span-project.york.ac.uk) or open an issue in one of [our Github repos](https://github.com/Cloud-SPAN). 
 
 * [For Learners](#learners)
 
@@ -28,7 +28,7 @@ Learners will need to bring a laptop (not a tablet). Learners using a Windows ma
 
 ### My institution has its own compute cluster, or our research group uses a different cloud computing resource. Can we deliver the workshop using that system?
 
-This course is based on a genomics workshop developed by [The Carpentries]("https://datacarpentry.org/genomics-workshop/"). To ensure a consistent workshop experience for learners and Instructors, all workshops organized by The Carpentries (“centrally-organized workshops”) use a stable, community-tested curriculum and technical set-up. We have adapted this curriculum and setup to suit our and our users' needs. Currently, this means all our Genomics workshops are taught using Amazon Web Services, although we may be interested in supporting other systems in the future. 
+This course is based on a genomics workshop developed by [The Carpentries](https://datacarpentry.org/genomics-workshop/). To ensure a consistent workshop experience for learners and Instructors, all workshops organized by The Carpentries (“centrally-organized workshops”) use a stable, community-tested curriculum and technical set-up. We have adapted this curriculum and setup to suit our and our users' needs. Currently, this means all our Genomics workshops are taught using Amazon Web Services, although we may be interested in supporting other systems in the future. 
 
 ### Where can I find more information about this workshop?
 For a full description of this workshop, including what content is covered, and what dataset we use to teach, visit the [Genomics Workshop Overview](https://cloud-span.github.io/genomics01-intro/) page. 
