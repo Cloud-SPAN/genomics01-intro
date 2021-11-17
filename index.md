@@ -3,7 +3,7 @@
 
 [Cloud-SPAN](https://cloud-span.york.ac.uk) is a project run by the Biology Department of the University of York with the aim to develop advanced modules covering specialised knowledge and skills to generate and analyse 'omics data using cloud-based High Performance Computing (HPC) resources.
 
-This course is based on the Data Carpentry's [Genomics Workshop](https://datacarpentry.org/genomics-workshop/), streamlined and extended to serve as the foundation course for the Cloud SPAN advanced modules. [Data Carpentry](https://datacarpentry.org/)’s aim is to teach researchers basic concepts, skills, and tools for working with data so that they can get more done in less time, and with less pain.
+This course is based on the Data Carpentry's [Genomics Workshop](https://datacarpentry.org/genomics-workshop/), streamlined and extended to serve as the foundation course for the Cloud SPAN advanced modules.
 
 The course teaches data management and analysis for genomics research including: (1) best practices for organization of bioinformatics projects and data, (2) use of command-line utilities to connect to and use cloud computing and storage resources, (3) use of command-line tools for data preparation, (4) use of command-line tools to analyze sequence quality and perform and automate variant calling.
 
@@ -28,7 +28,7 @@ The course is designed to be taught over four half days of instruction.
 > This course uses data from a long term evolution experiment published in 2016: [Tempo and mode of genome evolution in a 50,000-generation experiment](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4988878/) by Tenaillon O, Barrick JE, Ribeck N, Deatherage DE, Blanchard JL, Dasgupta A, Wu GC, Wielgoss S, Cruveiller S, Médigue C, Schneider D, and Lenski RE. (doi: 10.1038/nature18959)
 >
 > All of the data used in this workshop can be [downloaded from Figshare](https://figshare.com/articles/Data_Carpentry_Genomics_beta_2_0/7726454).
-> More information about this data is available on the [Data page](https://datacarpentry.org/organization-genomics/data/).
+> More information about this data is available on the [Data page](https://cloud-span.github.io/genomics02-proj-mngt-cloud-genomics/data/index.html).
 {: .prereq}
 
 # Course Overview
