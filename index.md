@@ -9,10 +9,6 @@ The course teaches data management and analysis for genomics research including:
 
 The course is designed to be taught over four half days of instruction.
 
-> ## Frequently Asked Questions
-> Read our [FAQ](https://cloud-span.github.io/genomics01-intro/faq/index.html) to learn more about the Cloud SPAN advanced modules and scholarships for individuals from underrepresented groups that might otherwise be unable to participate in training including funds to cover childcare required to undertake self-paced learning.
-{: .callout}
-
 > ## Getting Started
 >
 > This course assumes that learners have no prior experience with the tools covered in the course.
